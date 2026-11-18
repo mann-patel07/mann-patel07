@@ -1,6 +1,6 @@
 # Mann Patel
 
-Physics (BS) student with a Mathematics minor at UC San Diego.
+Physics and applied mathematics at UC San Diego.
 
 I build quant research backtests, physics simulations and data analysis, and Formula 1 data projects.
 
