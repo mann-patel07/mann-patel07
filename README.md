@@ -1,10 +1,15 @@
 # Mann Patel
 
-Physics + Mathematics @ UC San Diego
-Interested in quantitative research, statistical modeling, and scientific computing.
+Physics (BS) student with a Mathematics minor at UC San Diego.
 
-## Selected projects
+I build quant research backtests, physics simulations and data analysis, and Formula 1 data projects.
 
-**Trend-Following Backtest** — Tested a moving-average crossover strategy across 29 equities and 19 parameter combinations with transaction costs and a historical cash-rate proxy. The strategy underperformed buy-and-hold in roughly 93% of tested parameter cells; the project focuses on robustness checks and understanding why the apparent edge fails.
+## Projects
 
-**Neutrino Waveform Classification** — PyTorch models for particle-detector waveform classification and energy reconstruction. Archived classifier ROC AUC: 0.857. Originally developed for UC San Diego PHYS 41; limitations and reproducibility constraints are documented in the repository.
+- [Pairs-Trading-Walkforward](https://github.com/mann-patel07/Pairs-Trading-Walkforward): does cointegration predict profitable pairs trading? 30 US large-cap pairs and 19 walk-forward windows give a net Sharpe ratio of 0.32, with an interval from -0.36 to 0.99.
+- [Trend-Following-Backtest](https://github.com/mann-patel07/Trend-Following-Backtest): a moving average crossover on 29 tickers and 19 parameter pairs. Buy-and-hold beats it in about 93% of the cells.
+- [Ising-Monte-Carlo](https://github.com/mann-patel07/Ising-Monte-Carlo): the 2D Ising model with Metropolis and Wolff updates. The critical temperature is 2.2666 (standard error 0.0035) against the exact 2.2692.
+- [Z-Boson-Dimuon](https://github.com/mann-patel07/Z-Boson-Dimuon): an unbinned fit of the Z mass in CMS open dimuon data. It gives 90.79 GeV, 0.40 GeV below the PDG value.
+- [F1-Tyre-Degradation-Analysis](https://github.com/mann-patel07/F1-Tyre-Degradation-Analysis): does a tyre degradation term improve lap-time forecasts? A pre-registered 2025 study, replicated on 2022 to 2024. Pooled forecast error falls from 0.780 s to 0.640 s.
+- [F1-Race-Replay-Dashboard](https://github.com/mann-patel07/F1-Race-Replay-Dashboard): an offline replay page for 431 Formula 1 races from 2007 to 2026. It opens from a double click.
+- [Neutrino-waveform-Classification](https://github.com/mann-patel07/Neutrino-waveform-Classification): PyTorch models for particle-detector waveforms. The 1D CNN classifier has a ROC AUC of 0.857.
